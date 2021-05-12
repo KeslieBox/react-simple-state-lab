@@ -1,0 +1,70 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 2,
+    "passes": 0,
+    "pending": 0,
+    "failures": 2,
+    "start": "2021-05-11T18:02:53.494Z",
+    "end": "2021-05-11T18:02:53.515Z",
+    "duration": 21
+  },
+  "tests": [
+    {
+      "title": "defines Matrix.defaultProps",
+      "fullTitle": "<Matrix /> defines Matrix.defaultProps",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected false to equal true",
+        "showDiff": true,
+        "actual": "false",
+        "expected": "true",
+        "stack": "AssertionError: expected false to equal true\n    at Context.<anonymous> (test/0-Matrix.test.js:20:63)\n    at processImmediate (internal/timers.js:461:21)"
+      }
+    },
+    {
+      "title": "is exported",
+      "fullTitle": "<Cell /> is exported",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected false to equal true",
+        "showDiff": true,
+        "actual": "false",
+        "expected": "true",
+        "stack": "AssertionError: expected false to equal true\n    at Context.<anonymous> (test/1-Cell.test.js:20:49)\n    at processImmediate (internal/timers.js:461:21)"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "defines Matrix.defaultProps",
+      "fullTitle": "<Matrix /> defines Matrix.defaultProps",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected false to equal true",
+        "showDiff": true,
+        "actual": "false",
+        "expected": "true",
+        "stack": "AssertionError: expected false to equal true\n    at Context.<anonymous> (test/0-Matrix.test.js:20:63)\n    at processImmediate (internal/timers.js:461:21)"
+      }
+    },
+    {
+      "title": "is exported",
+      "fullTitle": "<Cell /> is exported",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected false to equal true",
+        "showDiff": true,
+        "actual": "false",
+        "expected": "true",
+        "stack": "AssertionError: expected false to equal true\n    at Context.<anonymous> (test/1-Cell.test.js:20:49)\n    at processImmediate (internal/timers.js:461:21)"
+      }
+    }
+  ],
+  "passes": []
+}
